@@ -1,0 +1,38 @@
+body, h1, h2, p, form, label, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease; /* Added transition for smooth changes */
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    /* padding: 1.5rem 0; */
+    padding: 2vh 0;
+    font-size: 1vw;
+    transition: background-color 0.3s, transform 0.3s ease; /* Added transform transition */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* padding: 1.5rem 0; */
+    padding: 2vh 0;
+    font-size: 1vw;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s ease; /* Existing transition */
+    z-index: 999;
+}
